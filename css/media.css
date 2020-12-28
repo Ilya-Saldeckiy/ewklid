@@ -42,6 +42,53 @@
     }
 }
 
+@media(max-width:1500px){
+    .container{
+        max-width: 1400px;
+    }
+
+    .footer-form-position {
+        margin-right: 110px;
+    }
+
+    .footer-link-position {
+        margin-right: 120px;
+    }
+
+    .work-position {
+        background-size: 45%;
+    }
+
+    .btn-image-collumn {
+        top: -30px;
+        left: 380px;
+    }
+
+    .package-elips {
+        left: 730px;
+        top: 1160px;
+    }
+
+    .form-package {
+        left: 780px;
+        top: 1135px;
+    }
+
+    .settings-elips {
+        left: 730px;
+        top: 1495px;
+    }
+
+    .form-settings {
+        left: 780px;
+        top: 1465px;
+    }
+
+    .card-abbout {
+        padding-bottom: 46px;
+    }
+}
+
 
 
 @media(max-width:1024px){
