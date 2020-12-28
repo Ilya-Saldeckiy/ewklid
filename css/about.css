@@ -81,7 +81,7 @@
     position: absolute;
     background: url('../img/package.svg')no-repeat;
     left: 1022px;
-    top: 1108px;
+    top: 390px;
     z-index: 90;
 }
 
@@ -92,7 +92,7 @@
     position: absolute;
     background-color: #FF9900;
     left: 963px;
-    top: 1125px;
+    top: 400px;
     z-index: 90;
 }
 
@@ -103,7 +103,7 @@
     position: absolute;
     background-color: #FF9900;
     left: 963px;
-    top: 1450px;
+    top: 750px;
     z-index: 90;
 }
 
@@ -113,7 +113,7 @@
     position: absolute;
     background: url('../img/sett.svg')no-repeat;
     left: 1014px;
-    top: 1416px;
+    top: 715px;
     z-index: 90;
 }
 

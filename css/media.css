@@ -19,22 +19,22 @@
 
     .package-elips{
         left: 880px;
-        top: 1130px;
+        top: 400px;
     }
 
     .form-package{
         left: 945px;
-        top: 1110px;
+        top: 390px;
     }
 
     .settings-elips{
         left: 880px;
-        top: 1470px;
+        top: 750px;
     }
 
     .form-settings{
         left: 930px;
-        top: 1440px;
+        top: 715px;
     }
 
     .work-position{
@@ -64,24 +64,24 @@
         left: 380px;
     }
 
-    .package-elips {
-        left: 730px;
-        top: 1160px;
+    .package-elips{
+        left: 750px;
+        top: 400px;
     }
 
-    .form-package {
-        left: 780px;
-        top: 1135px;
+    .form-package{
+        left: 810px;
+        top: 390px;
     }
 
-    .settings-elips {
-        left: 730px;
-        top: 1495px;
+    .settings-elips{
+        left: 750px;
+        top: 750px;
     }
 
-    .form-settings {
-        left: 780px;
-        top: 1465px;
+    .form-settings{
+        left: 800px;
+        top: 715px;
     }
 
     .card-abbout {
@@ -148,22 +148,22 @@
 
     .package-elips{
         left: 85px;
-        top: 1900px;
+        top: 1185px;
     }
 
     .form-package{
         left: 140px;
-        top: 1894px;
+        top: 1165px;
     }
 
     .settings-elips{
         left: 85px;
-        top: 2235px;
+        top: 1500px;
     }
 
     .form-settings{
         left: 140px;
-        top: 2210px;
+        top: 1475px;
     }
 
     .slider{
@@ -423,14 +423,14 @@
         width: 95px;
         height: 100px;
         left: 35px;
-        top: 2130px;
+        top: 1275px;
     }
 
     .form-package{
         width: 95px;
         height: 100px;
         left: 70px;
-        top: 2110px;
+        top: 1255px;
         background: url('../img/package-678n.svg');
     }
 
@@ -438,14 +438,14 @@
         width: 95px;
         height: 100px;
         left: 30px;
-        top: 2410px;
+        top: 1565px;
     }
 
     .form-settings{
         width: 95px;
         height: 100px;
         left: 70px;
-        top: 2385px;
+        top: 1540px;
         background: url('../img/settings-768.svg') no-repeat;
     }
 
@@ -553,19 +553,19 @@
     }
 
     .package-elips {
-        top: 2300px;
+        top: 1360px;
     }
 
     .form-package{
-        top: 2275px;
+        top: 1340px;
     }
 
     .form-settings{
-        top: 2590px;
+        top: 1700px;
     }
 
     .settings-elips{
-        top: 2620px;
+        top: 1675px;
     }
 }
 
@@ -605,7 +605,6 @@
 
     .slider{
         margin-left: 0;
-        width: 290px;
         background: url("../img/top-banner-320px.png");
         padding-top: 19px;
         padding-left: 0px;
@@ -715,7 +714,7 @@
         width: 43px;
         height: 43px;
         left: 10px;
-        top: 1470px;
+        top: 1180px;
     }
 
     .form-package{
@@ -723,20 +722,20 @@
         height: 50px;
         background: url('../img/package-320.svg') no-repeat;
         left: 30px;
-        top: 1460px;
+        top: 1170px;
     }
 
     .settings-elips{
         width: 43px;
         height: 43px;
         left: 10px;
-        top: 1775px;
+        top: 1500px;
     }
 
     .form-settings{
         background: url('../img/settings-320.svg') no-repeat;
         left: 30px;
-        top: 1765px;
+        top: 1490px;
     }
 
     .work-list-item:not(:last-child) {
