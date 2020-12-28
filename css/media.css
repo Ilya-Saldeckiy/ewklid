@@ -1,3 +1,40 @@
+@media(max-width:1680px){
+    .container{
+        margin: 0 auto;
+        max-width: 1640px;
+    }
+
+    .footer-link-position{
+        margin-right: 250px;
+    }
+
+    .footer-form-position{
+        margin-right: 210px;
+    }
+
+    .package-elips{
+        left: 910px;
+        top: 1087px;
+    }
+
+    .form-package{
+        left: 975px;
+        top: 1070px;
+    }
+
+    .settings-elips{
+        left: 910px;
+        top: 1395px;
+    }
+
+    .form-settings{
+        left: 965px;
+        top: 1370px;
+    }
+}
+
+
+
 @media(max-width:1024px){
     .container{
         margin: 0 auto;
