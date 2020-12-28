@@ -1,35 +1,44 @@
 @media(max-width:1680px){
     .container{
-        margin: 0 auto;
-        max-width: 1640px;
+        max-width: 1580px;
     }
 
     .footer-link-position{
-        margin-right: 250px;
+        margin-right: 230px;
     }
 
     .footer-form-position{
-        margin-right: 210px;
+        margin-right: 200px;
+    }
+
+    .btn-image-collumn{
+        top: -75px;
+        left: 530px;
+        position: relative;
     }
 
     .package-elips{
-        left: 910px;
-        top: 1087px;
+        left: 880px;
+        top: 1130px;
     }
 
     .form-package{
-        left: 975px;
-        top: 1070px;
+        left: 945px;
+        top: 1110px;
     }
 
     .settings-elips{
-        left: 910px;
-        top: 1395px;
+        left: 880px;
+        top: 1470px;
     }
 
     .form-settings{
-        left: 965px;
-        top: 1370px;
+        left: 930px;
+    top: 1440px;
+    }
+
+    .work-position{
+        background-size: 50%;
     }
 }
 
