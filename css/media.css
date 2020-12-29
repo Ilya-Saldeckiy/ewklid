@@ -166,11 +166,17 @@
         top: 1475px;
     }
 
-    .slider{
+    .swiper-pagination{
+        display: block;
+    }
+
+    .swiper-slide{
         padding-top: 121px;
-        padding-left: 45px;
         padding-bottom: 115px;
-        background: url("../img/top-banner1024px.png");
+    }
+    
+    .slider-text-position{
+        padding-left: 45px;
     }
 
     .slide-text{
@@ -375,8 +381,11 @@
         padding-top: 13px;
     }
 
-    .slider{
+    .swiper-slide{
         padding-top: 152px;
+    }
+    
+    .slider-text-position{
         padding-left: 50px;
     }
 
@@ -605,10 +614,19 @@
 
     .slider{
         margin-left: 0;
-        background: url("../img/top-banner-320px.png");
+    }
+
+    .swiper-pagination{
+        display: none;
+    }
+
+    .swiper-slide{
         padding-top: 19px;
-        padding-left: 0px;
         padding-bottom: 40px;
+    }
+    
+    .slider-text-position{
+        padding-left: 0px;
     }
 
     .slide-caption {

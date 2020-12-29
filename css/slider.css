@@ -3,12 +3,48 @@
 }
 
 .slider{
-    background: url("../img/low-angle-photo-of-balconies-2462015.png") no-repeat;
-    padding-left: 78px;
-    padding-top: 56px;
-    padding-bottom: 95px;
     width: 100%;
     background-size: cover;
+}
+
+.swiper-slide{
+    padding-top: 56px;
+    padding-bottom: 95px;
+}
+
+.slider-text-position{
+    padding-left: 78px;
+}
+
+.slide-1{
+    background: url('../img/slide-1.png') no-repeat;
+    background-size: cover;
+}
+
+.slide-2{
+    background: url('../img/slide-2.png') no-repeat;
+    background-size: cover;
+}
+
+.slide-3{
+    background: url('../img/slide-3.png') no-repeat;
+    background-size: cover;
+}
+
+.swiper-pagination-bullet{
+    background-color: rgba(255, 255, 255, 0.4) !important;
+    width: 15px !important;
+    height: 15px !important;
+    outline: none;
+    margin-right: 20px !important;
+}
+
+.swiper-pagination-bullet-active{
+    background-color: #ffffff !important;
+}
+
+.swiper-pagination{
+    display: none;
 }
 
 .slide-caption{
