@@ -20,6 +20,10 @@
     <link rel="preload" href="fonts/Montserrat-Light.woff2" as="font">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </head>
@@ -153,23 +157,36 @@
             </section>
             <section class="question">
                 <h2 class="main-caption caption-question">Часто задаваемые вопросы</h2>
-                <ul class="question-list list-reset">
-                    <li class="question-list-item">
-                        <a href="#" class="question-link d">Из чего формируется конечная стоимость проекта?</a>
-                    </li>
-                    <li class="question-list-item">
-                        <a href="#" class="question-link d">У меня есть свой проект. Сможем ли мы его доработать / реализовать?</a>
-                    </li>
-                    <li class="question-list-item">
-                        <a href="#" class="question-link d">Я выбираю между разными компаниями. В чём ваше отличие?</a>
-                    </li>
-                    <li class="question-list-item">
-                        <a href="#" class="question-link d">Могу ли я делегировать вам работу / согласование с подрядчиком / организацией?</a>
-                    </li>
-                    <li class="question-list-item">
-                        <a href="#" class="question-link d">Могу ли я вернуть деньги на каком-либо из этапов работ?</a>
-                    </li>
-                </ul>
+                <div class="question-list list-reset" id="accordion">
+                    <h3 class="question-link d">Из чего формируется конечная стоимость проекта?</h3>
+                    <div class="question-list-item">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptas officia natus voluptatum quisquam perferendis iusto, ipsam debitis repellendus dolores provident deserunt exercitationem sit ullam ut minus voluptates ipsum eius?</p>
+                    </div>
+                    <h3 class="question-link d">У меня есть свой проект. Сможем ли мы его доработать / реализовать?</h3>
+                    <div class="question-list-item">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptas officia natus voluptatum quisquam perferendis iusto, ipsam debitis repellendus dolores provident deserunt exercitationem sit ullam ut minus voluptates ipsum eius?</p>
+                    </div>
+                    <h3 class="question-link d">Я выбираю между разными компаниями. В чём ваше отличие?</h3>
+                    <div class="question-list-item">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptas officia natus voluptatum quisquam perferendis iusto, ipsam debitis repellendus dolores provident deserunt exercitationem sit ullam ut minus voluptates ipsum eius?</p>
+                    </div>
+                    <h3 class="question-link d">Могу ли я делегировать вам работу / согласование с подрядчиком / организацией?</h3>
+                    <div class="question-list-item">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptas officia natus voluptatum quisquam perferendis iusto, ipsam debitis repellendus dolores provident deserunt exercitationem sit ullam ut minus voluptates ipsum eius?</p>
+                    </div>
+                    <h3 class="question-link d">Могу ли я вернуть деньги на каком-либо из этапов работ?</h3>
+                    <div class="question-list-item">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptas officia natus voluptatum quisquam perferendis iusto, ipsam debitis repellendus dolores provident deserunt exercitationem sit ullam ut minus voluptates ipsum eius?</p>
+                    </div>
+                </div>
+                <script>
+                    $(function() {
+                        $( "#accordion" ).accordion({
+                            active: false,
+                            collapsible: true   
+                        } );
+                    });
+                </script>
             </section>
         </div>
         </main>
