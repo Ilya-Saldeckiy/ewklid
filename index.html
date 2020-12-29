@@ -31,7 +31,16 @@
     <header class="header">
         <div class="container header-container">
             <button class="btn burger" type="button" aria-label="Открыть меню"></button>
-            <img src="img/logo.png" alt="Логотип" class="header-logo">
+            <picture>
+                <source media="(min-width: 1024px)" srcset="img/logo-1024.png 1x,img/logo-1024@2x.png 2x">
+                <source media="(min-width: 768px)" srcset="img/logo-1024.png 1x,img/logo-1024@2x.png 2x">
+                <source media="(min-width: 512px)" srcset="img/logo-320.png 1x,img/logo-1024@2x.png 2x">
+                <img src="img/logo.png" srcset="img/logo@2x.png 2x" alt="Логотип" class="header-logo">
+                <source media="(min-width: 1024px)"  type="image/webp" srcset="img/logo-1024.webp 1x, img/logo-1024@2x.webp 2x">
+                <source media="(min-width: 768px)"  type="image/webp" srcset="img/logo-1024.webp 1x, img/logo-1024@2x.webp 2x">
+                <source media="(min-width: 512px)"  type="image/webp" srcset="img/logo-320.webp 1x, img/logo-320@2x.webp 2x">
+                <source type="image/webp" srcset="img/logo.webp 1x, img/logo@2x.webp 2x">
+              </picture>
             <nav>
                 <div class="header-menu menu-container">
                     <ul class="menu-list list-reset">
@@ -183,7 +192,8 @@
                     $(function() {
                         $( "#accordion" ).accordion({
                             active: false,
-                            collapsible: true   
+                            collapsible: true,
+                            heightStyle: "content",
                         } );
                     });
                 </script>
@@ -193,7 +203,12 @@
         <footer class="footer">
             <div class="footer-position container">
                 <div class="footer-link-position">
-                    <img src="img/logo-footer.png" alt="логотип" class="footer-logo">
+                    <picture>
+                        <source media="(min-width: 512px)" srcset="img/logo-footer-320.png 1x,img/logo-footer-320@2x.png 2x">
+                        <img src="img/logo-footer.png" srcset="img/logo-footer@2x.png 2x" alt="Логотип" class="header-logo">
+                        <source media="(min-width: 512px)"  type="image/webp" srcset="img/logo-footer-320.webp 1x, logo-footer-320_2x.webp 2x">
+                        <source type="image/webp" srcset="img/logo-footer-320.webp 1x,img/logo-footer-320_2x.webp 2x">
+                      </picture>
                     <ul class="list-reset footer-social-position">
                         <li><a href="#" class="footer-link">О нас</a></li>
                         <li><a href="#" class="footer-link">Проекты</a></li>
