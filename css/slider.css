@@ -9,11 +9,11 @@
 
 .swiper-slide{
     padding-top: 56px;
-    padding-bottom: 95px;
+    padding-bottom: 92px;
 }
 
 .slider-text-position{
-    padding-left: 78px;
+    padding-left: 153px;
 }
 
 .slide-1{
@@ -50,7 +50,7 @@
 .slide-caption{
     width: 840px;
     line-height: 86px;
-    font-size: 70px;
+    font-size: 70.3742px;
     color: #ffffff;
     margin-bottom: 10px;
 }

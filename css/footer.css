@@ -95,7 +95,7 @@
     background-color:none;
     border-radius:2px;
     padding:3px;
-    top: 5px;
+    top: 0px;
 }
 
 [type=checkbox]:checked + span:before {
@@ -155,5 +155,5 @@
 
 .check-text{
     position: relative;
-    top: 4px;
+    top: 0px;
 }

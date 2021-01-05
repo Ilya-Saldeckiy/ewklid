@@ -1,5 +1,5 @@
 .question{
-    margin-bottom: 97px;
+    margin-bottom: 102px;
     font-size: 24px;
 }
 
@@ -43,7 +43,7 @@
     background-image: url("../img/+.svg");
     background-repeat: no-repeat;
     background-position: center;
-    margin-top: -6px;
+    margin-top: -10px;
 }
 
 .d:hover::after{
@@ -88,10 +88,11 @@
 }
 
 .ui-accordion .ui-accordion-header{
-    padding: 40px 0px 40px 0px !important;
+    padding: 38px 0px 40px 6px !important;
     font-size: 24px !important;
+    line-height: 32px;
+    font-style: normal;
     font-weight: 700;
-    margin-right: 0px;
     width: 100%;
 }
 
