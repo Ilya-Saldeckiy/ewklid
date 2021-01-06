@@ -3,6 +3,8 @@
 }
 
 .about-caption{
+    margin: 0;
+    padding: 0;
     margin-bottom: 21px;
     font-weight: 400;
 }
