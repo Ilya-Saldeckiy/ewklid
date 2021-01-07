@@ -130,7 +130,7 @@
         font-size: 55px;
         margin-bottom: -10px;
         line-height: 65px;
-        width: 95%;
+        width: 90%;
     }
 
     .top-banner{
@@ -333,7 +333,7 @@
     }
 
     .question-link{
-        width: 760px;
+        width: 100%;
         display: inline-block;
         font-size: 20px;
     }
@@ -498,7 +498,7 @@
     }
 
     .question-link{
-        width: 550px;
+        width: 100%;
         margin-top: -11px;
     }
 
@@ -532,7 +532,7 @@
     }
 
     .ui-accordion .ui-accordion-header{
-        padding-right: 60px !important;
+        padding-right: 60px;
     }
 }
 
@@ -564,6 +564,10 @@
 
     .question-link {
         padding-right: 40px;
+    }
+
+    .question-list h3{
+        padding-right: 20px;
     }
 
     .package-elips {
@@ -811,7 +815,6 @@
     }
 
     .question-link {
-        width: 223px;
         font-size: 14px;
         line-height: 24px;
         font-weight: 500;
@@ -822,12 +825,12 @@
         height: 30px;
         background-size: 75%;
         background-position: center;
-        right: -40px;
-        top: -35px;    
+        right: -40px; 
     }
 
+
     .ui-accordion .ui-accordion-header {
-        padding-right: 40px !important;
+        padding-right: 55px;
     }
 
     .question-list-item {
