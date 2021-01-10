@@ -48,7 +48,7 @@
     }
 
     .footer-form-position {
-        margin-right: 110px;
+        margin-right: 80px;
     }
 
     .footer-link-position {
@@ -372,7 +372,7 @@
     }
 }
 
-@media(max-width:855px){
+@media(max-width:885px){
     .container{
         max-width: 670px;
     }
@@ -536,7 +536,7 @@
     }
 }
 
-@media(max-width:680px){
+@media(max-width:690px){
     .container{
         max-width: 550px;
     }
@@ -587,7 +587,7 @@
     }
 }
 
-@media(max-width:620px){
+@media(max-width:630px){
     .container{
         max-width: 290px;
     }
