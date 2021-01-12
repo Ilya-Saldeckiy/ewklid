@@ -828,6 +828,12 @@
         right: -40px; 
     }
 
+    .d:hover::after{
+        content: " ";
+        width: 30px; 
+        height: 30px;
+    }
+
 
     .ui-accordion .ui-accordion-header {
         padding-right: 55px;
