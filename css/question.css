@@ -54,13 +54,6 @@
     background-color: #D2D2D2;
 }
 
-.d:focus::after{
-    content: " ";
-    background-image: url('../img/question-activ.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
 .ui-state-active{
     background: none;
     color: #333333;

@@ -607,6 +607,21 @@
         top: 10px;
     }
 
+    .menu{
+        width: 200px;
+        height: 400px;
+        top: 55px;
+        right: 0;
+        padding-top: 30px;
+        padding-left: 50px;
+    }
+
+    .menu-list-item-mobile{
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+
     .header-container {
         padding-bottom: 8px;
         padding-top: 6px;
@@ -826,12 +841,6 @@
         background-size: 75%;
         background-position: center;
         right: -40px; 
-    }
-
-    .d:hover::after{
-        content: " ";
-        width: 30px; 
-        height: 30px;
     }
 
 

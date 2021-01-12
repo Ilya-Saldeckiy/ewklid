@@ -75,8 +75,31 @@
     transition: linear 0.1s;
 }
 
-.burger:hover{
+.burger:active{
     transition: linear 0.1s;
     background: url("../img/Burgerhover.svg") no-repeat;
+}
 
+.menu{
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    background-color:#FFFFFF;
+    z-index: 999;
+    top: 82px;
+    transition: 0.5s ease-in-out;
+    transform: translateX(-300%);
+    box-shadow: inset 0 0 7px rgba(0,0,0,0.4);
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.menu-active{
+    transform: none;
+}
+
+.menu-list-item-mobile{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
 }
