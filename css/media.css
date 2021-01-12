@@ -37,8 +37,12 @@
         top: 715px;
     }
 
-    .work-position{
-        background-size: 50%;
+    .tabs-image{
+        width: 750px;
+    }
+
+    .work-text{
+        margin-right: 0px;
     }
 }
 
@@ -86,6 +90,10 @@
 
     .card-abbout {
         padding-bottom: 46px;
+    }
+
+    .tabs-image{
+        width: 585px;
     }
 }
 
@@ -342,6 +350,11 @@
         margin-right: 70px;
     }
 
+    .tabs-image{
+        width: 450px;
+        height: 545px;
+    }
+
 }
 
 @media(max-width:940px){
@@ -369,6 +382,11 @@
 
     .footer-link-position {
         margin-right: 0px;
+    }
+
+    .tabs-image{
+        width: 375px;
+        height: 700px;
     }
 }
 
@@ -534,6 +552,13 @@
     .ui-accordion .ui-accordion-header{
         padding-right: 60px;
     }
+
+    .tabs-image {
+        width: 668px;
+        height: 284px;
+        position: absolute;
+        top: 1900px;
+    }
 }
 
 @media(max-width:690px){
@@ -584,6 +609,10 @@
 
     .settings-elips{
         top: 1675px;
+    }
+
+    .tabs-image {
+        top: 2065px;
     }
 }
 
@@ -843,6 +872,16 @@
         right: -40px; 
     }
 
+    .d:hover:after{
+        width: 30px;
+        height: 30px;
+    }
+
+    .question {
+        margin-bottom: 102px;
+        font-size: 18px;
+    }
+
 
     .ui-accordion .ui-accordion-header {
         padding-right: 55px;
@@ -934,6 +973,11 @@
 
     .inst {
         background: url("../img/instagram320px.svg") no-repeat;
+    }
+
+    .tabs-image {
+        height: 165px;
+        top: 1956px;
     }
 
 
