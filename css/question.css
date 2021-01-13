@@ -54,7 +54,7 @@
     background-color: #D2D2D2;
 }
 
-.d:focus::after{
+.d-active::after{
     content: " ";
     background-image: url('../img/question-activ.svg');
     background-repeat: no-repeat;

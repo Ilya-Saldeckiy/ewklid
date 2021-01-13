@@ -20,7 +20,7 @@
     transition: linear 0.1s;
 }
 
-.work-list-button:hover{
+.work-list-button:focus{
     color: #FF9900;
 }
 

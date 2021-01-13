@@ -1,5 +1,5 @@
 .top-banner{
-    margin-bottom: 100px;
+    margin-bottom: 248px;
 }
 
 .slider{
@@ -12,8 +12,16 @@
     padding-bottom: 92px;
 }
 
+.swiper-container {
+    height: 620px;
+}
+
 .slider-text-position{
-    padding-left: 80px;
+    position: relative;
+    left: -605px;
+    width: 400px;
+    top:55px;
+    z-index: 5;
     padding-top: 47px;
 }
 
@@ -33,7 +41,7 @@
 }
 
 .swiper-pagination{
-    display: none;
+    display: block;
 }
 
 .slide-caption{

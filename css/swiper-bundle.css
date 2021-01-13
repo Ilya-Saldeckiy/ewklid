@@ -22,7 +22,7 @@
   .swiper-container {
     margin-left: auto;
     margin-right: auto;
-    position: relative;
+    position: absolute;
     overflow: hidden;
     list-style: none;
     padding: 0;
@@ -291,7 +291,7 @@
     transition: 200ms transform, 200ms top;
   }
   .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
-    margin: 0 4px;
+    margin: 0 10px;
   }
   .swiper-container-horizontal > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
     left: 50%;

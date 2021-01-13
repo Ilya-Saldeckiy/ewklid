@@ -72,12 +72,12 @@
     height: 23px;
     background: url("../img/Burger.svg") no-repeat;
     border: none;
-    transition: linear 0.1s;
+    transition: linear 0.4s;
 }
 
-.burger:active{
-    transition: linear 0.1s;
-    background: url("../img/Burgerhover.svg") no-repeat;
+.burger-activ{
+    transition: linear 0.4s;
+    background: url("../img/active-burger.svg") no-repeat;
 }
 
 .menu{
