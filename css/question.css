@@ -27,6 +27,11 @@
     transition: color linear 0.1s;
     color: #FF9900;
 }
+
+.question-link:focus{
+    /* outline: 1px solid #333333; */
+    color: #FF9900;
+}
     
 .question-list{
     margin-left: 6px;

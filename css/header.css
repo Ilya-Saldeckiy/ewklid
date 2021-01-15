@@ -16,9 +16,9 @@
     padding: 0;
 }
 
-.btn{
+/* .btn{
     outline: none;
-}
+} */
 
 .header-container{
     display: flex;
@@ -48,6 +48,10 @@
 }
 .menu-list-item:not(:last-child){
     margin-right: 85px;
+}
+
+.menu{
+    display: none;
 }
 
 .btn-search{

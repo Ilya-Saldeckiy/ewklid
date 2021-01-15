@@ -71,9 +71,18 @@
     font-size: 23.4581px;
     line-height: 29px;
     transition: linear 0.2s;
+    outline: #ffffff;
+}
+
+.slide-button:focus{
+    outline: 1px solid #ffffff;
 }
 
 .slide-button:hover{
     transition: linear 0.2s;
     background:rgba(255, 153, 0, 0.6);
+}
+
+.swiper-slide:focus{
+    outline: 1px solid #333333;
 }
